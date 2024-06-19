@@ -22,7 +22,7 @@ local initted = false
 local msg_cnt = 0
 local msg_buf = {}
 
-_M.version = "0.2"
+_M.version = "0.2.1"
 
 function _do_write(p, msg)
 	local proto = my_opts.proto

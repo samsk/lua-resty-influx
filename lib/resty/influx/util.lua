@@ -10,7 +10,7 @@ local str_fmt  = string.format
 
 local HTTP_NO_CONTENT = ngx.HTTP_NO_CONTENT
 
-_M.version = "0.2"
+_M.version = "0.2.1"
 
 function _M.write_udp(msg, host, port)
 	local sock = udp()

@@ -14,7 +14,7 @@ end
 
 local bool_strs = { '^t$', '^T$', '^true$', '^True$', '^TRUE$', '^f$', '^F$', '^false$', '^False$', '^FALSE$' }
 
-_M.version = "0.2"
+_M.version = "0.2.1"
 
 -- quoting routines based on
 -- https://docs.influxdata.com/influxdb/v1.0/write_protocols/line_protocol_reference/

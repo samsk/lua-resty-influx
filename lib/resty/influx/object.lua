@@ -20,7 +20,7 @@ local ERR = ngx.ERR
 local WRN = ngx.WARN
 local DBG = ngx.DEBUG
 
-_M.version = "0.2"
+_M.version = "0.2.1"
 
 local mt = {
 		__index = _M,
